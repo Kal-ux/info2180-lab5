@@ -43,6 +43,7 @@ main{
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem;
+    
 }
 
 #country{
@@ -54,6 +55,25 @@ main{
 
 #button_group{
 	margin-top: 0.5rem;
+    
+}
+
+#country_lookup{
+    background-color: #7fd682;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+#city_lookup{
+    background-color: #0b7fc2;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 30px;
 }
 
 #result{
